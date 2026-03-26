@@ -1,3 +1,4 @@
+#QUESTION 1
 #What are mutable and immutable objects in Python?
 #mutable (can change after creation)
 #A mutable object can be modified without changing its identity
@@ -11,7 +12,9 @@ print(my_list)
 your_list ="hello"
 your_list = your_list + " World"
 print(your_list)
+#-------------------------------------------------------------------------------
 
+#QUESTION 2
 #Why exception handling is important?
 #Exception handling prevents your program from crashing when errors occur
 
@@ -19,7 +22,8 @@ try:
     y = int("hillo")
 except ValueError:
     print("Unknown Word!")    
-
+#----------------------------------------------------------------------------------
+#QUESTION 3
 #What is the difference between a regular function and a generator function?  
 #Regular function uses return, returns one value , Stops after returning
  
@@ -35,3 +39,4 @@ def get_numbers():
     yield 3
 for num in get_numbers():
     print(num)    
+#------------------------------------------------------------------------------------------

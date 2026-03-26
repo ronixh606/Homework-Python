@@ -88,6 +88,7 @@ except FileNotFoundError:
 # list of invalid records
 # reason for each issue
 
+#i also added for valid records output
 records = [
     {"user_id": 1, "score": 80, "email": "user@test.com"},
     {"user_id": 2, "score": -10, "email": "invalid"},
@@ -117,3 +118,4 @@ for item in invalid_records:
 print("valid records:")
 for record in valid_records:
     print(record)
+#------------------------------------------------------------------------------
